@@ -14,20 +14,6 @@ namespace GettingStarted
     {
         public int[] Run(int[] input)
         {
-            for (var i = 1; i < input.Length; i++)
-            {
-                var current = input[i];
-                var cursor = i - 1;
-
-                while (cursor >= 0 && input[cursor] > current)
-                {
-                    input[cursor + 1] = input[cursor];
-                    cursor--;
-                }
-
-                input[cursor + 1] = current;
-            }
-
             return input;
         }
     }
