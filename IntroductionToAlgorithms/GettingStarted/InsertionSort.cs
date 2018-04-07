@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Infrastructure;
+﻿using Infrastructure;
 
 namespace GettingStarted
 {
@@ -11,13 +9,26 @@ namespace GettingStarted
     /// It works in a way people sort a hand of 
     /// playing cards.
     /// 
-    /// 
     /// </summary>
-    public class InsertionSort : IExecutable<int>
+    public class InsertionSort : IRunable<int>
     {
-        public IEnumerable<int> Execute(IEnumerable<int> input)
+        public int[] Run(int[] input)
         {
-            throw new NotImplementedException();
+            for (var i = 1; i < input.Length; i++)
+            {
+                var current = input[i];
+                var cursor = i - 1;
+
+                while (cursor >= 0 && input[cursor] > current)
+                {
+                    input[cursor + 1] = input[cursor];
+                    cursor--;
+                }
+
+                input[cursor + 1] = current;
+            }
+
+            return input;
         }
     }
 }
