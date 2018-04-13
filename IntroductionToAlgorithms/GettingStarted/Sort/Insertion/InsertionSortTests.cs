@@ -1,7 +1,6 @@
-﻿using GettingStarted.Sort.Insertion;
-using Xunit;
+﻿using Xunit;
 
-namespace GettingStarted
+namespace GettingStarted.Sort.Insertion
 {
     public class InsertionSortTests
     {

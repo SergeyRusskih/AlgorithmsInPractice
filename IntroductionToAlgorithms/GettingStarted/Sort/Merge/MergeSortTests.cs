@@ -18,6 +18,5 @@ namespace GettingStarted.Sort.Merge
             var result = _sort.Run(input, 5);
             Assert.Equal(new[] { 1, 2, 3, 5, 6, 7, 8, 10, 11, 12, 15}, result);
         }
-
     }
 }
