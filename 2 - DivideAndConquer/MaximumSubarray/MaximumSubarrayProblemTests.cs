@@ -20,11 +20,11 @@ namespace DivideAndConquer.MaximumSubarray
         }
 
         [Fact]
-        public void RunMaxSliceFinding_WithNegativeInput_ReturnsMaxSlice()
+        public void RunMaxSliceFinding_WithNegativeInput_ReturnsEmptyArray()
         {
             var input = new[] { 10, 9, 8, 7 };
             var result = _maximumSubarray.Run(input);
-            Assert.Equal(new[] { 81, 101, 94, 106 }, result);
+            Assert.Equal(new int[0], result);
         }
     }
 }
