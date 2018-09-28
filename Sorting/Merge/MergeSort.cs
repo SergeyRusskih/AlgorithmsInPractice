@@ -1,4 +1,4 @@
-﻿namespace GettingStarted.Sort.Merge
+﻿namespace Sorting.Merge
 {
     /// <summary>
     ///     Merge sort.

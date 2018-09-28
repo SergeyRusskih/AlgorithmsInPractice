@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace DivideAndConquer.MaximumSubarray
+namespace Miscellaneous.MaximumSubarray
 {
     public class MaximumSubarrayProblemTests
     {

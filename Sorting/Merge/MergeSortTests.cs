@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace GettingStarted.Sort.Merge
+namespace Sorting.Merge
 {
     public class MergeSortTests
     {

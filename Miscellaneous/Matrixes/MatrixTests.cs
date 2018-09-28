@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace DivideAndConquer.Matrixes
+namespace Miscellaneous.Matrixes
 {
     public class MatrixTests
     {

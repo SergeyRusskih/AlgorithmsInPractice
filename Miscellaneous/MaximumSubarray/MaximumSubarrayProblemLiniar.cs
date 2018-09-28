@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DivideAndConquer.MaximumSubarray
+namespace Miscellaneous.MaximumSubarray
 {
     /// <summary>
     /// Limple solution for finding max subarray problem.

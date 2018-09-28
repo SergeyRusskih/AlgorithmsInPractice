@@ -1,4 +1,4 @@
-﻿namespace DivideAndConquer.Matrixes
+﻿namespace Miscellaneous.Matrixes
 {
     /// <summary>
     /// Brute force method to multipy two matrixes.

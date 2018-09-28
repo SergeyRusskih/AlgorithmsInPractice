@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace GettingStarted.Sort.Bubble
+namespace Sorting.Bubble
 {
     public class BubbleSortTests
     {

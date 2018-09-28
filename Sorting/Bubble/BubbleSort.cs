@@ -1,4 +1,4 @@
-﻿namespace GettingStarted.Sort.Bubble
+﻿namespace Sorting.Bubble
 {
     /// <summary>
     ///     Bubble sort.

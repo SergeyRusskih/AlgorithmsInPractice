@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DivideAndConquer
+namespace Miscellaneous.MaximumSubarray
 {
     /// <summary>
     ///     Finding maximum subarray (max difference between local maximum and local minimum)

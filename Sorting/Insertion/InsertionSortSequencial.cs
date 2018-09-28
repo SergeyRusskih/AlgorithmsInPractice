@@ -1,4 +1,4 @@
-﻿namespace GettingStarted.Sort.Insertion
+﻿namespace Sorting.Insertion
 {
     /// <summary>
     ///     Insertion sort.
