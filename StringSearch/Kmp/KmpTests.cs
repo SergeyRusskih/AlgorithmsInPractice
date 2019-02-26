@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace StringSearch
+namespace StringSearch.Kmp
 {
     public class KmpTests
     {
@@ -17,7 +17,7 @@ namespace StringSearch
             var text = "aaaaab";
             var pattern = "aab";
             var result = _kmp.Run(text, pattern);
-            Assert.Empty(result);
+            Assert.Equal(1, result);
         }
     }
 }

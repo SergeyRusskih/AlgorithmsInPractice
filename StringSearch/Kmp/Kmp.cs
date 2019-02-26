@@ -1,13 +1,19 @@
-﻿using System.Collections.Generic;
-
-namespace StringSearch
+﻿namespace StringSearch.Kmp
 {
     public class Kmp
     {
-        public int[] Run(string text, string pattern)
+        public int Run(string text, string pattern)
         {
             var lps = BuildLps(pattern + "@" + text);
-            return new List<int>().ToArray();
+
+            var count = 0;
+            foreach (var value in lps)
+            {
+                if (value == pattern.Length)
+                    count++;
+            }
+
+            return count;
         }
 
         private int[] BuildLps(string input)
