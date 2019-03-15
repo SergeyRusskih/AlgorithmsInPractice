@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace StringSearch.Kmp
+namespace SearchString.Kmp
 {
     public class KmpTests
     {

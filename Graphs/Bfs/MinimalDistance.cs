@@ -6,7 +6,6 @@ namespace Graphs.Bfs
 {
     public class MinimalDistance
     {
-
         public int Run(Tuple<int, List<int>>[] matrix, int node)
         {
             var queue = new Queue<int>();
