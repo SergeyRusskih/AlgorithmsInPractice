@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miscellaneous", "Miscellane
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphs", "Graphs\Graphs.csproj", "{BBA82DCF-80A0-45DE-80BC-2FE2FC672302}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greedy", "Greedy\Greedy.csproj", "{4779453C-028D-4F7E-B006-40B66A6582BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BBA82DCF-80A0-45DE-80BC-2FE2FC672302}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBA82DCF-80A0-45DE-80BC-2FE2FC672302}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBA82DCF-80A0-45DE-80BC-2FE2FC672302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4779453C-028D-4F7E-B006-40B66A6582BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4779453C-028D-4F7E-B006-40B66A6582BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4779453C-028D-4F7E-B006-40B66A6582BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4779453C-028D-4F7E-B006-40B66A6582BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
