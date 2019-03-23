@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphs", "Graphs\Graphs.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greedy", "Greedy\Greedy.csproj", "{4779453C-028D-4F7E-B006-40B66A6582BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{D8516C89-E1FD-4D1D-8DA0-DE7B89379091}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4779453C-028D-4F7E-B006-40B66A6582BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4779453C-028D-4F7E-B006-40B66A6582BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4779453C-028D-4F7E-B006-40B66A6582BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8516C89-E1FD-4D1D-8DA0-DE7B89379091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8516C89-E1FD-4D1D-8DA0-DE7B89379091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8516C89-E1FD-4D1D-8DA0-DE7B89379091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8516C89-E1FD-4D1D-8DA0-DE7B89379091}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
