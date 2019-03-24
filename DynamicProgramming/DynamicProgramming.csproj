@@ -56,6 +56,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BottomUp\ChangeCoin.cs" />
+    <Compile Include="BottomUp\WeddingShopping.cs" />
+    <Compile Include="LongestIncreasingSubsequence.cs" />
+    <Compile Include="TopDown\CoinChange.cs" />
+    <Compile Include="TopDown\Fibonacci.cs" />
     <Compile Include="TopDown\WeddingShopping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
