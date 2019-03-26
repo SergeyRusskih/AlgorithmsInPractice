@@ -9,20 +9,20 @@ namespace DynamicProgramming.TopDown
 
         private int Change(int value)
         {
-            var memo = new int[value + 1, (value / Coins[0]) + 1];
-            return Change(value, memo, 0);
+            var memo = new int[value + 1];
+            return Change(value, memo);
         }
 
-        private int Change(int value, int[,] memo, int depth)
+        private int Change(int value, int[] memo)
         {
             if (value < 0)
                 return int.MaxValue;
 
             if (value == 0)
-                return depth;
+                return 0;
 
-            if (memo[value, depth] != 0)
-                return memo[value, depth];
+            if (memo[value] != 0)
+                return memo[value];
 
             var min = int.MaxValue;
             for (int i = 0; i < Coins.Length; i++)
@@ -31,10 +31,10 @@ namespace DynamicProgramming.TopDown
                 if (left < 0)
                     continue;
 
-                min = Math.Min(min, Change(left, memo, depth + 1));
+                min = Math.Min(min, Change(left, memo) + 1);
             }
 
-            memo[value, depth] = min;
+            memo[value] = min;
 
             return min;
         }
