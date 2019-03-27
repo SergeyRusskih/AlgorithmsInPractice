@@ -63,6 +63,7 @@
     <Compile Include="BottomUp\WeddingShopping.cs" />
     <Compile Include="LongestIncreasingSubsequence.cs" />
     <Compile Include="TopDown\CoinChange.cs" />
+    <Compile Include="TopDown\CuttingSticks.cs" />
     <Compile Include="TopDown\Fibonacci.cs" />
     <Compile Include="TopDown\WeddingShopping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
