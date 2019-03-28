@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace DynamicProgramming.TopDown
+namespace DynamicProgramming.BottomUp
 {
     public class CuttingSticks
     {
@@ -23,7 +23,7 @@ namespace DynamicProgramming.TopDown
                 return memo[stick];
 
             var minCost = int.MaxValue - 1001 * 50;
-            for (int i = 1; i < stick; i++)
+            for (int i = 1; i < (stick / 2 + 1); i++)
             {
                 minCost = Math.Min(minCost, stick + FindMinimalCutCost(stick - i, cuts - 1, memo));
             }

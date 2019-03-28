@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BottomUp\ChangeCoin.cs" />
+    <Compile Include="BottomUp\CuttingSticks.cs" />
     <Compile Include="BottomUp\LevinshtainsDistance.cs" />
     <Compile Include="BottomUp\MaxRangeSum.cs" />
     <Compile Include="BottomUp\MaxSubrectangleSum.cs" />
