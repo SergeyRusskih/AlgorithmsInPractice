@@ -13,19 +13,23 @@ namespace DynamicProgramming.BottomUp
 
         private int FindMinimalCutCost(int stick, int cuts, int[] memo)
         {
-            if (cuts == 0)
-                return 0;
+            if (cuts == 1)
+                return stick;
 
-            if (stick < 2)
+            if (cuts < 1 || stick < 2)
                 return int.MaxValue - 1001 * 50;
 
             if (memo[stick] != 0)
                 return memo[stick];
 
             var minCost = int.MaxValue - 1001 * 50;
-            for (int i = 1; i < (stick / 2 + 1); i++)
+            for (int i = 1; i < stick; i++)
             {
-                minCost = Math.Min(minCost, stick + FindMinimalCutCost(stick - i, cuts - 1, memo));
+                minCost = Math.Min(
+                    minCost,
+                    stick
+                    + FindMinimalCutCost(i, cuts - 2, memo)
+                    + FindMinimalCutCost(stick - i, cuts - 2, memo));
             }
 
             memo[stick] = minCost;

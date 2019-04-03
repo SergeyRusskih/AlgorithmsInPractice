@@ -1,0 +1,6 @@
+﻿
+
+Prime number.
+	- from 2 to infinity
+	- only devisible by 1 or itself
+	- 2, 3, 5, 7, 11, 13 etc.
