@@ -1,4 +1,4 @@
-﻿namespace SearchString.Kmp
+﻿namespace StringProcessing.Search.Kmp
 {
     public class Kmp
     {

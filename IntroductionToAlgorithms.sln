@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{DD3CD439-489C-4756-BC49-2D4411AC79F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchString", "SearchString\SearchString.csproj", "{5657FCAF-848A-4871-917F-A9CC06A4D412}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringProcessing", "StringProcessing\StringProcessing.csproj", "{5657FCAF-848A-4871-917F-A9CC06A4D412}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miscellaneous", "Miscellaneous\Miscellaneous.csproj", "{D5C3B92B-D2C5-4A6C-AEF3-B78F04F2CC7C}"
 EndProject

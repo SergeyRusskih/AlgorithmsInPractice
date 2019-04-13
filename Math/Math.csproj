@@ -56,6 +56,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fibonacci.cs" />
     <Compile Include="GcdLcm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RelativelyPrime.cs" />

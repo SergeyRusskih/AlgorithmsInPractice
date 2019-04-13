@@ -10,8 +10,8 @@
     <ProjectGuid>{5657FCAF-848A-4871-917F-A9CC06A4D412}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SearchString</RootNamespace>
-    <AssemblyName>SearchString</AssemblyName>
+    <RootNamespace>StringProcessing</RootNamespace>
+    <AssemblyName>StringProcessing</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -59,8 +59,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Kmp\Kmp.cs" />
-    <Compile Include="Kmp\KmpTests.cs" />
+    <Compile Include="Parsing\MathExpression.cs" />
+    <Compile Include="Search\Kmp\Kmp.cs" />
+    <Compile Include="Search\Kmp\KmpTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
