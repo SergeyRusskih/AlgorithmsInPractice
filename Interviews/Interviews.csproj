@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{59858BD5-683A-4121-8F63-A1893A5F78D6}</ProjectGuid>
+    <ProjectGuid>{2EB20B0F-FC78-4CBF-A8A9-CAC1628A3244}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Math</RootNamespace>
-    <AssemblyName>Math</AssemblyName>
+    <RootNamespace>Interviews</RootNamespace>
+    <AssemblyName>Interviews</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -56,12 +56,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fibonacci.cs" />
-    <Compile Include="GcdLcm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="NumbersTheory.txt" />
+    <Compile Include="Yandex\Preparation\Anagrams.cs" />
+    <Compile Include="Yandex\Preparation\ArrayMerge.cs" />
+    <Compile Include="Yandex\Preparation\Brackets.cs" />
+    <Compile Include="Yandex\Preparation\OnesSequence.cs" />
+    <Compile Include="Yandex\Preparation\RemoveDuplicates.cs" />
+    <Compile Include="Yandex\Preparation\StonesAndJevelries.cs" />
+    <Compile Include="Yandex\Template.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

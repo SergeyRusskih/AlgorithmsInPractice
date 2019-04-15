@@ -59,8 +59,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Edge.cs" />
     <Compile Include="Bfs\MinimalDistance.cs" />
     <Compile Include="Dfs\Backtracking.cs" />
+    <Compile Include="Graph.cs" />
+    <Compile Include="Vertex.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
