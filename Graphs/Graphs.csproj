@@ -63,6 +63,9 @@
     <Compile Include="Bfs\MinimalDistance.cs" />
     <Compile Include="Dfs\Backtracking.cs" />
     <Compile Include="Graph.cs" />
+    <Compile Include="MinimalPath\BellmanFord.cs" />
+    <Compile Include="MinimalPath\Dijkstra.cs" />
+    <Compile Include="MinimalSpanningTree\Kruskals.cs" />
     <Compile Include="Vertex.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using Xunit;
 
-namespace Greedy
+namespace Graphs.MinimalSpanningTree
 {
     public class Kruskals
     {

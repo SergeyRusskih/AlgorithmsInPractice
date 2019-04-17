@@ -58,7 +58,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Yandex\Preparation\Anagrams.cs" />
-    <Compile Include="Yandex\Preparation\ArrayMerge.cs" />
     <Compile Include="Yandex\Preparation\Brackets.cs" />
     <Compile Include="Yandex\Preparation\OnesSequence.cs" />
     <Compile Include="Yandex\Preparation\RemoveDuplicates.cs" />
