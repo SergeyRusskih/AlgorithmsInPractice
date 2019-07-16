@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using System;
+using Xunit;
 
 namespace StringProcessing.Search.Kmp
 {
@@ -14,10 +15,14 @@ namespace StringProcessing.Search.Kmp
         [Fact]
         public void RunSearch_Returns_Empty_Array_If_No_Match_Found()
         {
-            var text = "aaaaab";
-            var pattern = "aab";
-            var result = _kmp.Run(text, pattern);
-            Assert.Equal(1, result);
+            var arr = new[] {4, 8, 6, 12};
+
+            var result = _kmp.minimumTime(4, arr);
+
+            //var text = "aaaaab";
+            //var pattern = "aab";
+            //var result = _kmp.Run(text, pattern);
+            //Assert.Equal(1, result);
         }
     }
 }

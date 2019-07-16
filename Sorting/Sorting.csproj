@@ -64,9 +64,11 @@
     <Compile Include="Insertion\InsertionSortDecreasing.cs" />
     <Compile Include="Insertion\InsertionSortSequencial.cs" />
     <Compile Include="Insertion\InsertionSortTests.cs" />
+    <Compile Include="MergeSort.cs" />
     <Compile Include="Merge\MergeSort.cs" />
     <Compile Include="Merge\MergeSortTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
