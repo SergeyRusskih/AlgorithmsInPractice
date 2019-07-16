@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using DataStructures.SimpleGraph;
+using Xunit;
 
 namespace Graphs.MinimalPath
 {

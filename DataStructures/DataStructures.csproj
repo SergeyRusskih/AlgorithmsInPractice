@@ -7,18 +7,19 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2EB20B0F-FC78-4CBF-A8A9-CAC1628A3244}</ProjectGuid>
+    <ProjectGuid>{174A4397-48D7-4B70-89C9-26DC76AEC64F}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Interviews</RootNamespace>
-    <AssemblyName>Interviews</AssemblyName>
+    <RootNamespace>DataStructures</RootNamespace>
+    <AssemblyName>DataStructures</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -28,12 +29,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -58,15 +63,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Amazon\MinimumTime.cs" />
-    <Compile Include="Amazon\OptimalUtilization.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Yandex\Preparation\Anagrams.cs" />
-    <Compile Include="Yandex\Preparation\Brackets.cs" />
-    <Compile Include="Yandex\Preparation\OnesSequence.cs" />
-    <Compile Include="Yandex\Preparation\RemoveDuplicates.cs" />
-    <Compile Include="Yandex\Preparation\StonesAndJevelries.cs" />
-    <Compile Include="Yandex\Template.cs" />
+    <Compile Include="Queue\Queue.cs" />
+    <Compile Include="Queue\QueueTests.cs" />
+    <Compile Include="SimpleGraph\Edge.cs" />
+    <Compile Include="SimpleGraph\Graph.cs" />
+    <Compile Include="SimpleGraph\Vertex.cs" />
+    <Compile Include="Stack\Stack.cs" />
+    <Compile Include="Stack\StackTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -74,9 +78,7 @@
   <ItemGroup>
     <Analyzer Include="..\packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Yandex\Interview\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

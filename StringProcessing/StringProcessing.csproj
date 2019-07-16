@@ -60,8 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Parsing\MathExpression.cs" />
-    <Compile Include="Search\Kmp\Kmp.cs" />
-    <Compile Include="Search\Kmp\KmpTests.cs" />
+    <Compile Include="Search\Kmp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

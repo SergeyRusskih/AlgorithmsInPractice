@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace StringProcessing.Search.Kmp
+namespace Interviews.Amazon
 {
-    public class Kmp
+    public class OptimalUtilization
     {
         public List<List<int>> optimalUtilization(int deviceCapacity,
             List<List<int>> foregroundAppList,
@@ -57,67 +56,6 @@ namespace StringProcessing.Search.Kmp
             }
 
             return candidates;
-        }
-
-        public int minimumTime(int numOfSubFiles, int[] files)
-        {
-            return merge(0, numOfSubFiles, files);
-        }
-
-        private int merge(int index, int numOfSubFiles, int[] files)
-        {
-            if (index + 1 >= numOfSubFiles || index >= files.Length)
-                return 0;
-
-            Array.Sort(files);
-
-            var current = files[index];
-            var next = files[index + 1];
-
-            var time = current + next;
-
-            files[index + 1] = time;
-            files[index] = 0;
-
-            var result = merge(++index, numOfSubFiles, files);
-
-            return time + result;
-        }
-
-        public int Run(string text, string pattern)
-        {
-
-
-            var lps = BuildLps(pattern + "@" + text);
-
-            var count = 0;
-            foreach (var value in lps)
-            {
-                if (value == pattern.Length)
-                    count++;
-            }
-
-            return count;
-        }
-
-        private int[] BuildLps(string input)
-        {
-            var result = new int[input.Length];
-            for (var i = 1; i < input.Length; i++)
-            {
-                var j = result[i - 1];
-                while (j > 0 && input[i] != input[j])
-                {
-                    j = result[j - 1];
-                }
-
-                if (input[i] == input[j])
-                    j++;
-
-                result[i] = j;
-            }
-
-            return result;
         }
     }
 }
