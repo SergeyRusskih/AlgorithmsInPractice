@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using DataStructures.SimpleGraph;
 using Xunit;
 
 namespace Graphs.MinimalSpanningTree

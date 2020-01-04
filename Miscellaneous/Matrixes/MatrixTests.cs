@@ -14,24 +14,24 @@ namespace Miscellaneous.Matrixes
         [Fact]
         public void SimpleInput_Returns_MultiplyedMatrix()
         {
-            var first = new int[][]
+            var first = new[]
             {
-                new int[] { 1, 4 },
-                new int[] { 6, 2 },
-                new int[] { 1, 6 },
+                new[] { 1, 4 },
+                new[] { 6, 2 },
+                new[] { 1, 6 },
             };
 
-            var second = new int[][]
+            var second = new[]
             {
-                new int[] { 5, 4, 9 },
-                new int[] { 6, 6, 2 },
+                new[] { 5, 4, 9 },
+                new[] { 6, 6, 2 },
             };
 
-            var expected = new int[][]
+            var expected = new[]
             {
-                new int[] { 29, 28, 17 },
-                new int[] { 42, 36, 58 },
-                new int[] { 41, 40, 21 },
+                new[] { 29, 28, 17 },
+                new[] { 42, 36, 58 },
+                new[] { 41, 40, 21 },
             };
 
             var result = _bruteForce.Run(first, second);

@@ -31,5 +31,25 @@
 
             return input;
         }
+
+        public int[] Run1(int[] input)
+        {
+            if (input == null || input.Length < 2)
+                return input;
+
+            for (int i = 0; i < input.Length - 1; i++)
+            {
+                var key = i;
+                while (key >= 0 && input[key] > input[key + 1])
+                {
+                    var current = input[key];
+                    input[key] = input[key + 1];
+                    input[key + 1] = current;
+                    key--;
+                }
+            }
+
+            return input;
+        }
     }
 }

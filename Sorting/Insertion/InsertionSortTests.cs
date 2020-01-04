@@ -22,7 +22,15 @@ namespace Sorting.Insertion
         }
 
         [Fact]
-        public void RunSorting_WithExcerciseInput_ReturnsSortedSequence()
+        public void Run1Sorting_WithExampleInput_ReturnsSortedSequence()
+        {
+            var input = new[] { 5, 2, 4, 6, 1, 3 };
+            var result = _sequencial.Run1(input);
+            Assert.Equal(new[] { 1, 2, 3, 4, 5, 6 }, result);
+        }
+
+        [Fact]
+        public void RunSorting_WithExerciseInput_ReturnsSortedSequence()
         {
             var input = new[] { 31, 41, 59, 26, 41, 58 };
             var result = _sequencial.Run(input);
