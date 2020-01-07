@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Xunit;
 
 namespace ClassLibrary1.Codility.Rhodium_2019
@@ -87,6 +86,8 @@ namespace ClassLibrary1.Codility.Rhodium_2019
       - Don't miss up the values. E.g. values of start and end of path
         and values of upper and lower bounds of search.
       - Write more test cases! Seek for them!
+
+        https://app.codility.com/cert/view/certQ6JJVH-7TEDCB2XB34TXTZ6/
     */
     public class Task1
     {

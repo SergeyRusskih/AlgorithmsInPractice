@@ -67,6 +67,7 @@
     <Compile Include="MaximumSubarray\MaximumSubarrayProblem.cs" />
     <Compile Include="MaximumSubarray\MaximumSubarrayProblemLiniar.cs" />
     <Compile Include="MaximumSubarray\MaximumSubarrayProblemTests.cs" />
+    <Compile Include="MovieScheduling.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TravelingSalesmanBruteForce\TravelingSalesman.cs" />
     <Compile Include="TravelingSalesmanBruteForce\TravelingSalesmanTests.cs" />
